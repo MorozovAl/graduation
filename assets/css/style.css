@@ -7,6 +7,10 @@ body {
     margin-bottom: 55px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .container-fluid {
     padding: 0;
 
@@ -230,7 +234,7 @@ body {
     content: "";
     height: 100%;
     min-width: 4px;
-    background: #34495e;
+    background: rgba(11, 72, 174, 0.6);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -243,7 +247,42 @@ body {
     opacity: .35;
 }
 
+.spoiler-trigger {
+    color: rgba(230, 12, 50, 0.7);
+    border: 2px solid transparent;
+}
+
+.spoiler-trigger:hover {
+    border: 2px solid rgba(230, 12, 50, 0.7);
+}
+
+
 .spoiler-block {
     /*position: absolute;*/
     display: none;
+}
+
+.train_title {
+    text-align: center;
+    font-size: 34px;
+}
+
+.train_content {
+    width: 90%;
+    margin: 0 auto;
+
+    font-size: 18px;
+    text-align: justify;
+}
+
+.training {
+    width: 90%;
+    margin: 0 auto;
+
+    font-size: 18px;
+    text-align: justify;
+}
+
+.training div {
+    margin: 20px 0;
 }
