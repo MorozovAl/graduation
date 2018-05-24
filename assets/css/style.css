@@ -267,16 +267,9 @@ a:hover {
     font-size: 34px;
 }
 
-.train_content {
-    width: 90%;
-    margin: 0 auto;
-
-    font-size: 18px;
-    text-align: justify;
-}
-
+.train_content,
 .training {
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
 
     font-size: 18px;
@@ -285,4 +278,22 @@ a:hover {
 
 .training div {
     margin: 20px 0;
+}
+
+
+
+.block__img img {
+    border-radius: 5px;
+    width: 300px;
+}
+
+.conteiner_trainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conteiner_trainer h3 {
+    padding-left: 20px;
 }
